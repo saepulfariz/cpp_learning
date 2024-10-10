@@ -8,7 +8,22 @@ using namespace std;
 
 int main()
 {
-    cout << "Nama = " << NAME;
+    const string UNIVERSITY = "Universitas Subang (UNSUB)";
+    const double IPK = 3.75;
+
+    cout << "======================";
+    cout << "\n";
+
+    cout << "My Name = " << NAME;
+    cout << "\n";
+
+    cout << "University : " << UNIVERSITY;
+    cout << "\n";
+
+    cout << "GAP = " << IPK;
+    cout << "\n";
+
+    cout << "======================";
     cout << "\n";
 
     cout << "Panjang = " << PANJANG;
@@ -18,6 +33,9 @@ int main()
     cout << "\n";
 
     cout << "Luas (panjang*lebar) = " << PANJANG * LEBAR;
+    cout << "\n";
+
+    cout << "======================";
     cout << "\n";
 
     return 0;
