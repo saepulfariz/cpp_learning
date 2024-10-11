@@ -2,16 +2,16 @@
 
 using namespace std;
 
-void sayHello()
+void sayHello(string name)
 {
-    cout << "Hello World" << endl;
+    cout << "Hello World By " << name << "!" << endl;
 }
 
 int main()
 {
-    sayHello();
-    sayHello();
-    sayHello();
+    sayHello("Saepulfariz");
+    sayHello("Saepulfariz");
+    sayHello("Saepulfariz");
 
     return 0;
 }
