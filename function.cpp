@@ -2,16 +2,17 @@
 
 using namespace std;
 
-void sayHello(string name)
+void sayHello(string name = "Saepulfariz", int age = 24)
 {
-    cout << "Hello World By " << name << "!" << endl;
+    cout << "Hello World By " << name << "! My age " << age << "." << endl;
 }
 
 int main()
 {
-    sayHello("Saepulfariz");
-    sayHello("Saepulfariz");
-    sayHello("Saepulfariz");
+    sayHello();
+    sayHello("Zail");
+    sayHello("Zail");
+    sayHello("Zail");
 
     return 0;
 }
