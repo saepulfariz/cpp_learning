@@ -2,24 +2,27 @@
  
 using namespace std;
  
+// buat class Laptop
 class Laptop {
-  // isi dari class Laptop...
-  // isi dari class Laptop...
+ 
+  // buat 3 data member untuk class Laptop
   string pemilik;
   string merk;
   double ukuranLayar;
-  
-  void hidupkanLaptop() {
-    //... isi dari member function hidupkanLaptop
+ 
+  // buat 2 member function untuk class Laptop
+  string hidupkanLaptop() {
+    return "Hidupkan Laptop";
   }
  
   string matikanLaptop() {
-    //... isi dari member function matikanLaptop
+    return "Matikan Laptop";
   }
 };
  
 int main()
 {
+  // buat objek dari class Laptop (instansiasi)
   Laptop laptopAndi;
   Laptop laptopAnto;
   // kode program
