@@ -5,6 +5,9 @@ using namespace std;
 class Laptop {
   // isi dari class Laptop...
   // isi dari class Laptop...
+  string pemilik;
+  string merk;
+  double ukuranLayar;
 };
  
 int main()
