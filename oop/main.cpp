@@ -20,6 +20,8 @@ class Laptop {
  
 int main()
 {
+  Laptop laptopAndi;
+  Laptop laptopAnto;
   // kode program
   // kode program
   return 0;
